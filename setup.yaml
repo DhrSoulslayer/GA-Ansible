@@ -2,7 +2,7 @@
 - hosts: all
   become: true
   vars_files:
-    - vars/vars-setup.yml
+    - vars/vars-setup.yaml
 # Sudo Group Setup
     - name: Make sure we have a 'wheel' group
       group:
