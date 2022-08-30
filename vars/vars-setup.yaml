@@ -1,0 +1,3 @@
+---
+create_user: administrator
+sys_packages: [ 'curl', 'vim', 'git', 'ufw', 'nano', 'iftop', 'bmon', 'sl', 'net-tools']
